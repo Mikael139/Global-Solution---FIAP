@@ -1,0 +1,144 @@
+@media (max-width: 500px) {
+    #logo {
+        text-align:center; 
+        margin-right:auto; 
+        margin-left:auto; 
+    }
+    #sections{
+        display:none; 
+    }
+  
+    .content {
+      height: 100vh;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      
+    }
+  
+    .text {
+      margin-right: 0;
+      font-size: 40px;
+      text-align: center;
+      margin-top: -30px;
+      margin-bottom: 5vh;
+    }
+  
+    .image {
+      text-align: center;
+    }
+  
+    .image img {
+      height: 20vh;
+      width: 35vh;
+      margin: 15px auto;
+    }
+
+    img {
+        text-align: center;
+        height: 20vh;
+        width: 35vh;
+        margin: 15px auto;
+      }
+
+    h1 {
+        font-size: 25px;
+        letter-spacing: 0px;
+    }
+
+    #solucoes {
+        max-width: 400px;
+        margin: auto;
+        padding: 0 15px;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #solucoes h2 {
+        font-size: 18px;
+    }
+
+    #solucoes h3 {
+        font-size: 14px;
+    }
+
+    #solucoes p {
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .image p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .icons {
+       display: none;
+    }
+
+    .section2 {
+        height: 90vh;
+        width: 100%;
+    }
+
+    .section3 {
+        margin-top: -13vh;
+        display: flex;
+        height: 160vh;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        border-bottom: none;
+        border-bottom: 2px solid black;
+    }
+
+    .section3 img {
+        margin-top: -20vh;
+        margin-bottom: 100px;
+    }
+
+    .section3 #solucoes {
+        width: 90%;
+    }
+
+    .section3 h2 {
+        margin-top: -15vh;
+    }
+
+    .section4 {
+        margin-top: -12vh;
+        border-bottom: none;
+        display: flex;
+        height: 130vh;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section4 img {
+        margin-top: -38vh;
+    }
+
+    .section4 #solucoes {
+        width: 90%;
+    }
+
+    .section4 h2 {
+        margin-top: -35vh;
+    }
+    
+    .footer-left {
+        font-size:6px; 
+    }
+
+    .footer-center img,
+    .footer-right img {
+        height:15px; 
+        width:auto; 
+    }
+  }
+  

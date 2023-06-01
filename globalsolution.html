@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/globalsolution.css">
+    <link rel="stylesheet" href="CSS/globalsolutionresponsivo.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <title>Global Solution</title>
@@ -16,12 +17,24 @@
         <nav  class="section" id="sections">
             <a href="#problema">PROBLEMA</a>
             <a href="#solucao">SOLUÇÕES</a>
-            <a href="#beneficios">BENEFÍCIOS</a>
             <a href="#tecnologias">TECNOLOGIAS</a>
+            <a href="#beneficios">BENEFÍCIOS</a>
         </nav>
+        <!--<div id="hamburger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div id="hamburger-menu">
+          <a href="#problema">PROBLEMA</a>
+          <a href="#solucao">SOLUÇÕES</a>
+          <a href="#tecnologias">TECNOLOGIAS</a>
+          <a href="#beneficios">BENEFÍCIOS</a>
+        </div>-->
     </header>
     
-    <section class="content" id="#problema">
+                                        <!-- SEÇÃO 1 / PROBLEMA-->
+    <section class="content" id="problema">
         <div>
             <h1 class="text">
                 FOME MUNDIAL <br>
@@ -49,14 +62,16 @@
         </div>
     </section>
 
-    <section class="section2" id="solucao" style="float: left;">
+                                    <!-- SEÇÃO 2 / SOLUÇÕES-->
+
+    <section class="section2" id="solucao">
         <div>
             <h1>
                 O uso de IA’s podem ajudar a combater a fome no mundo.
             </h1>
         </div> 
 
-        <div id="solucoes">
+        <div id="solucoes" >
             <h2>SOLUÇÕES</h2>
             <ul>
                 <li>
@@ -84,6 +99,121 @@
             </ul>
         </div>
     </section>
+
+                                        <!-- SEÇÃO 3 / TECNOLOGIAS-->
+
+    <section class="section3">
+        <div>
+            <h1>
+                Tecnologias de IA's para o Combate à Fome
+            </h1>
+        </div>
+        
+        <div id="solucoes" class="tecnologias">
+            <h2 id="tecnologias">TECNOLOGIAS</h2>
+            <ul>
+                <li>
+                    <input type="checkbox" checked>
+                    <i></i>
+                    <h3>Software desenvolvido em Python ou Java:</h3>
+                    <p>Essas linguagens de programação são amplamente utilizadas para desenvolver aplicativos e sistemas que podem facilitar o gerenciamento de dados e processos relacionados à produção de alimentos. Por exemplo, eles podem ser usados para criar aplicativos de planejamento agrícola, monitoramento de colheitas e rastreamento de alimentos, o que ajuda a melhorar a eficiência e a produtividade na agricultura.</p>
+                </li>
+                <li>
+                    <input type="checkbox" checked>
+                    <i></i>
+                    <h3>Machine Learning:​</h3>
+                    <p>
+                        O aprendizado de máquina é uma subárea da inteligência artificial que permite que os computadores aprendam e melhorem o desempenho de tarefas sem serem explicitamente programados. No contexto do combate à fome, o machine learning pode ser aplicado para análise de dados agrícolas, previsão de colheitas, detecção de doenças nas plantas e identificação de melhores práticas agrícolas, auxiliando os agricultores na tomada de decisões mais informadas e aumentando a produção de alimentos.
+                    </p>
+                </li>
+                <li>
+                    <input type="checkbox" checked>
+                    <i></i>
+                    <h3>Sensoriamento remoto:</h3>
+                    <p>O uso de sensores e imagens capturadas por satélites ou drones permite monitorar e analisar extensas áreas agrícolas de forma eficiente. Isso auxilia no monitoramento do crescimento das culturas, identificação de áreas com estresse hídrico ou doenças, mapeamento da cobertura vegetal e detecção de mudanças no uso da terra. </p>
+                </li>
+                <li>
+                    <input type="checkbox" checked>
+                    <i></i>
+                    <h3>Sistemas de Informação Geográfica (SIG):</h3>
+                    <p>Os SIG são ferramentas que integram informações geográficas, como mapas e dados espaciais, com dados relacionados à agricultura. Eles permitem a análise espacial de diferentes variáveis, como solo, clima, relevo e infraestrutura agrícola, proporcionando uma visão abrangente do contexto agrícola.</p>
+                </li>
+                <li>
+                    <input type="checkbox" checked>
+                    <i></i>
+                    <h3>Big Data e Analytics:</h3>
+                    <p>A coleta e análise de grandes volumes de dados relacionados à produção agrícola e aos padrões de consumo podem fornecer insights valiosos para combater a fome. Através da análise de dados, é possível identificar tendências, padrões de demanda, otimizar a logística de distribuição de alimentos, prever crises alimentares, melhorar a eficiência dos processos e promover práticas agrícolas mais sustentáveis.</p>
+                </li>
+            </ul>
+        </div>
+    
+        <div style="margin-top: 25vh;">
+            <img src="IMG/IA.webp" alt="Imagem" height="250vh" width="550vh">
+        </div>
+    </section>
+
+                                    <!-- SEÇÃO 4 / BENEFICIOS-->
+
+    <section class="section4" id="beneficios">
+        <div>
+            <h1>
+                BENEFÍCIOS
+            </h1>
+        </div>
+        
+        <div id="solucoes" class="tecnologias">
+            <h2>BENEFÍCIOS</h2>
+            <ul>
+                <li>
+                    <input type="checkbox" checked>
+                    <i></i>
+                    <h3>Condições de conter uma logística efetiva:</h3>
+                    <p>As tecnologias como sensoriamento remoto, sistemas de informação geográfica e análise de dados permitem um melhor monitoramento e planejamento logístico na cadeia de produção de alimentos. Isso inclui a identificação de áreas propícias para determinadas culturas, otimização da distribuição de recursos, acompanhamento do transporte e armazenamento adequado dos alimentos. Com uma logística efetiva, é possível garantir a entrega rápida e eficiente dos alimentos, reduzir desperdícios e atender às demandas de forma mais precisa.</p>
+                </li>
+                <li>
+                    <input type="checkbox" checked>
+                    <span class="accordion-icon"></span>
+                    <h3>Domínio completo do clima:</h3>
+                    <p>
+                        O uso de sensores e análise de dados climáticos em tempo real permite um melhor entendimento das condições climáticas que afetam a produção agrícola. Com essas informações, os agricultores podem ajustar o manejo das culturas, como irrigação e aplicação de defensivos, de acordo com as condições climáticas específicas de cada região. Isso contribui para um uso mais eficiente dos recursos naturais, aumento da produtividade e redução dos impactos causados por eventos climáticos extremos.
+                    </p>
+                </li>
+                <li>
+                    <input type="checkbox" checked>
+                    <i></i>
+                    <h3>Melhor acompanhamento dos alimentos:</h3>
+                    <p>Através de tecnologias como o sensoriamento remoto, sistemas de informação geográfica e análise de dados, é possível rastrear e monitorar todo o processo de produção, armazenamento e distribuição dos alimentos. Isso inclui o acompanhamento desde o cultivo das culturas até a chegada dos alimentos aos consumidores. Com um melhor acompanhamento, é possível garantir a qualidade dos alimentos, identificar possíveis problemas ou contaminações, reduzir desperdícios e melhorar a segurança alimentar.</p>
+                </li>
+            </ul>
+        </div>
+    
+        <div style="margin-top: 5vh;">
+            <img src="IMG/fome.jpg" alt="Imagem" height="350vh" width="550vh">
+        </div>
+    </section>
+    
+    <section class="section5">
+        <footer>
+            <div class="footer-content">
+              <ul class="footer-left">
+                <li>Gustavo Silva Fleury RM: 99872</li>
+                <li>Marco Aurélio Souza Couto RM: 551444</li>
+                <li>Nilton Mikael Palmeira da Silva RM: 552442</li>
+              </ul>
+              <div class="footer-center">
+                <a href="https://www.fiap.com.br/?gclid=CjwKCAjwg-GjBhBnEiwAMUvNW-TWErhlGOolMg2E5YlSjH0o0J63YwLzExonj6YAm-lHL7WWWHfzdRoClZsQAvD_BwE">
+                    <img src="IMG/fiap.png" height="25px" width="140px" alt="Imagem no centro">
+                </a>
+              </div>
+              <div class="footer-right">
+                <a href="https://www.kraftheinzcompany.com/">
+                    <img src="IMG/kraft-heinz-logo.png"  height="15px" width="120px" alt="Imagem à direita">
+                </a>
+              </div>
+            </div>
+          </footer>          
+    </section>
+    
 </body>
 
 </html>

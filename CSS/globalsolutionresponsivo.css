@@ -4,6 +4,7 @@
         margin-right:auto; 
         margin-left:auto; 
     }
+
     #sections{
         display:none; 
     }
@@ -57,15 +58,15 @@
     }
 
     #solucoes h2 {
-        font-size: 18px;
+        font-size: 17px;
     }
 
     #solucoes h3 {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     #solucoes p {
-        font-size: 13px;
+        font-size: 12px;
         font-weight: bold;
     }
 
@@ -86,7 +87,7 @@
     .section3 {
         margin-top: -13vh;
         display: flex;
-        height: 160vh;
+        height: 140vh;
         width: 100%;
         flex-direction: column;
         align-items: center;
@@ -105,7 +106,7 @@
     }
 
     .section3 h2 {
-        margin-top: -15vh;
+        margin-top: -10vh;
     }
 
     .section4 {
@@ -120,7 +121,7 @@
     }
 
     .section4 img {
-        margin-top: -38vh;
+        margin-top: -37vh;
     }
 
     .section4 #solucoes {
@@ -137,6 +138,7 @@
 
     .footer-center img,
     .footer-right img {
+        text-align: center;
         height:15px; 
         width:auto; 
     }

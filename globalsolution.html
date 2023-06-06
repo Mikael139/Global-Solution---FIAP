@@ -1,36 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/globalsolution.css">
-    <link rel="stylesheet" href="CSS/globalsolutionresponsivo.css">
+    <link rel="stylesheet" href="https://storage.cloud.google.com/global-solution-fiap/globalsolution.css">
+    <link rel="stylesheet" href="https://storage.cloud.google.com/global-solution-fiap/globalsolutionresponsivo.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://storage.googleapis.com/global-solution-fiap/globalsolution.js"></script>
     <title>Global Solution</title>
 </head>
 
 <body>
     <header>
         <div id="logo">GLOBAL SOLUTION</div>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <nav  class="overlay-content">
+                <a href="#problema">PROBLEMA</a>
+                <a href="#solucao">SOLUÇÕES</a>
+                <a href="#tecnologias">TECNOLOGIAS</a>
+                <a href="#beneficios">BENEFÍCIOS</a>
+            </nav>
+        </div>
+        <button class="nav-button" onclick="openNav()">
+            <i class="fa-solid fa-bars fa-2x"></i>
+        </button>
         <nav  class="section" id="sections">
             <a href="#problema">PROBLEMA</a>
             <a href="#solucao">SOLUÇÕES</a>
             <a href="#tecnologias">TECNOLOGIAS</a>
             <a href="#beneficios">BENEFÍCIOS</a>
         </nav>
-        <!--<div id="hamburger">
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div id="hamburger-menu">
-          <a href="#problema">PROBLEMA</a>
-          <a href="#solucao">SOLUÇÕES</a>
-          <a href="#tecnologias">TECNOLOGIAS</a>
-          <a href="#beneficios">BENEFÍCIOS</a>
-        </div>-->
     </header>
     
                                         <!-- SEÇÃO 1 / PROBLEMA-->
@@ -43,10 +46,10 @@
             </h1>
             <div class="icons">
                 <a href="https://github.com/Mikael139/Global-Solution---FIAP/tree/master" style="display: inline-block;">
-                    <img src="IMG/github.png" height="35px" width="35px">
+                    <img src="https://storage.cloud.google.com/global-solution-fiap/github.png" height="35px" width="35px">
                 </a>
                 <a href="https://www.instagram.com/" style="display: inline-block; margin-top: -5px;">
-                    <img src="IMG/instagram.png" height="35px" width="35px">
+                    <img src="https://storage.cloud.google.com/global-solution-fiap/instagram.png" height="35px" width="35px">
                 </a>
             </div>
         </div>
@@ -58,7 +61,7 @@
                 e para as perspetivas sombrias para 2021. O Programa Alimentar <br>
                 Mundial adverte que 41 milhões de pessoas estão “à beira da fome.” <br>
             </p>
-            <img src="IMG/IMG1.webp" alt="Descrição da imagem">
+            <img src="https://storage.cloud.google.com/global-solution-fiap/Img1.png" alt="Descrição da imagem">
         </div>
     </section>
 
@@ -71,7 +74,7 @@
             </h1>
         </div> 
 
-        <div id="solucoes" >
+        <div id="accordion" >
             <h2>SOLUÇÕES</h2>
             <ul>
                 <li>
@@ -85,15 +88,15 @@
                     <i></i>
                     <h3>Conterá um software que calcula:​</h3>
                     <p>
-                        - condições climáticas;​<br>
-                        - tempo estimado para colheita;<br>​
-                        - necessidade de que o sistema de irrigação seja acionado
+                        - Condições climáticas.<br>
+                        - Tempo estimado para colheita.<br>​
+                        - Necessidade de que o sistema de irrigação seja acionado.
                     </p>
                 </li>
                 <li>
                     <input type="checkbox" checked>
                     <i></i>
-                    <h3>Alerta de colheita: Utilização de drones para otimizar a logística e <br>evitar desperdício</h3>
+                    <h3>Alerta de colheita: Utilização de drones para otimizar a logística e evitar desperdício</h3>
                     <p>Quando estiver próximo do dia da colheita, o drone irá informar o produtor por meio de um equipamento de saída de dados (monitor), o qual permitirá que o mesmo tenha tempo suficiente para realizar uma logística impecável, evitando assim, o desperdício</p>
                 </li>
             </ul>
@@ -102,53 +105,51 @@
 
                                         <!-- SEÇÃO 3 / TECNOLOGIAS-->
 
-    <section class="section3">
+    <section class="section3"  id="tecnologias">
         <div>
             <h1>
                 Tecnologias de IA's para o Combate à Fome
             </h1>
         </div>
         
-        <div id="solucoes" class="tecnologias">
-            <h2 id="tecnologias">TECNOLOGIAS</h2>
+        <div id="accordion" class="tecnologias">
+            <h2>TECNOLOGIAS</h2>
             <ul>
                 <li>
                     <input type="checkbox" checked>
                     <i></i>
                     <h3>Software desenvolvido em Python ou Java:</h3>
-                    <p>Essas linguagens de programação são amplamente utilizadas para desenvolver aplicativos e sistemas que podem facilitar o gerenciamento de dados e processos relacionados à produção de alimentos. Por exemplo, eles podem ser usados para criar aplicativos de planejamento agrícola, monitoramento de colheitas e rastreamento de alimentos, o que ajuda a melhorar a eficiência e a produtividade na agricultura.</p>
+                    <p>Python e Java são linguagens de programação amplamente utilizadas para desenvolver aplicativos e sistemas que facilitam o gerenciamento de dados e processos na produção de alimentos. Elas podem ser aplicadas para criar aplicativos de planejamento agrícola, monitoramento de colheitas e rastreamento de alimentos, contribuindo para aumentar a eficiência e produtividade na agricultura.</p>
                 </li>
                 <li>
                     <input type="checkbox" checked>
                     <i></i>
                     <h3>Machine Learning:​</h3>
-                    <p>
-                        O aprendizado de máquina é uma subárea da inteligência artificial que permite que os computadores aprendam e melhorem o desempenho de tarefas sem serem explicitamente programados. No contexto do combate à fome, o machine learning pode ser aplicado para análise de dados agrícolas, previsão de colheitas, detecção de doenças nas plantas e identificação de melhores práticas agrícolas, auxiliando os agricultores na tomada de decisões mais informadas e aumentando a produção de alimentos.
-                    </p>
+                    <p>Aprendizado de máquina é uma subárea da inteligência artificial em que os computadores aprendem e melhoram o desempenho sem programação explícita. Na agricultura, o machine learning é usado para análise de dados agrícolas, previsão de colheitas e detecção de doenças em plantas, ajudando os agricultores a tomar decisões informadas e aumentar a produção de alimentos.</p>
                 </li>
                 <li>
                     <input type="checkbox" checked>
                     <i></i>
                     <h3>Sensoriamento remoto:</h3>
-                    <p>O uso de sensores e imagens capturadas por satélites ou drones permite monitorar e analisar extensas áreas agrícolas de forma eficiente. Isso auxilia no monitoramento do crescimento das culturas, identificação de áreas com estresse hídrico ou doenças, mapeamento da cobertura vegetal e detecção de mudanças no uso da terra. </p>
+                    <p>O sensoriamento remoto utiliza sensores e imagens de satélites ou drones para monitorar e analisar áreas agrícolas. Isso ajuda no acompanhamento do crescimento das culturas, identificação de estresse hídrico ou doenças, mapeamento da cobertura vegetal e detecção de mudanças no uso da terra.</p>
                 </li>
                 <li>
                     <input type="checkbox" checked>
                     <i></i>
                     <h3>Sistemas de Informação Geográfica (SIG):</h3>
-                    <p>Os SIG são ferramentas que integram informações geográficas, como mapas e dados espaciais, com dados relacionados à agricultura. Eles permitem a análise espacial de diferentes variáveis, como solo, clima, relevo e infraestrutura agrícola, proporcionando uma visão abrangente do contexto agrícola.</p>
+                    <p>SIG é uma ferramenta que integra informações geográficas com dados agrícolas, permitindo a análise espacial de variáveis como solo, clima e infraestrutura agrícola, proporcionando uma visão completa do contexto agrícola.</p>
                 </li>
                 <li>
                     <input type="checkbox" checked>
                     <i></i>
                     <h3>Big Data e Analytics:</h3>
-                    <p>A coleta e análise de grandes volumes de dados relacionados à produção agrícola e aos padrões de consumo podem fornecer insights valiosos para combater a fome. Através da análise de dados, é possível identificar tendências, padrões de demanda, otimizar a logística de distribuição de alimentos, prever crises alimentares, melhorar a eficiência dos processos e promover práticas agrícolas mais sustentáveis.</p>
+                    <p>Big Data e Analytics na agricultura ajudam a combater a fome ao coletar e analisar grandes volumes de dados sobre produção agrícola e consumo. Isso permite identificar tendências, otimizar a distribuição de alimentos, prever crises alimentares e melhorar a eficiência agrícola de forma sustentável.</p>
                 </li>
             </ul>
         </div>
     
         <div style="margin-top: 25vh;">
-            <img src="IMG/IA.webp" alt="Imagem" height="250vh" width="550vh">
+            <img src="https://storage.cloud.google.com/global-solution-fiap/drone.jpg" alt="Imagem" height="250vh" width="550vh">
         </div>
     </section>
 
@@ -161,38 +162,41 @@
             </h1>
         </div>
         
-        <div id="solucoes" class="tecnologias">
+        <div id="accordion" class="tecnologias">
             <h2>BENEFÍCIOS</h2>
             <ul>
                 <li>
                     <input type="checkbox" checked>
                     <i></i>
                     <h3>Condições de conter uma logística efetiva:</h3>
-                    <p>As tecnologias como sensoriamento remoto, sistemas de informação geográfica e análise de dados permitem um melhor monitoramento e planejamento logístico na cadeia de produção de alimentos. Isso inclui a identificação de áreas propícias para determinadas culturas, otimização da distribuição de recursos, acompanhamento do transporte e armazenamento adequado dos alimentos. Com uma logística efetiva, é possível garantir a entrega rápida e eficiente dos alimentos, reduzir desperdícios e atender às demandas de forma mais precisa.</p>
+                    <p>Tecnologias como sensoriamento remoto, sistemas de informação geográfica e análise de dados otimizam a logística na produção de alimentos. Elas identificam áreas adequadas para culturas, otimizam recursos, controlam transporte e armazenamento. Com uma logística efetiva, garante-se entrega rápida, redução de desperdícios e atendimento preciso às demandas.</p>
                 </li>
                 <li>
                     <input type="checkbox" checked>
                     <span class="accordion-icon"></span>
                     <h3>Domínio completo do clima:</h3>
-                    <p>
-                        O uso de sensores e análise de dados climáticos em tempo real permite um melhor entendimento das condições climáticas que afetam a produção agrícola. Com essas informações, os agricultores podem ajustar o manejo das culturas, como irrigação e aplicação de defensivos, de acordo com as condições climáticas específicas de cada região. Isso contribui para um uso mais eficiente dos recursos naturais, aumento da produtividade e redução dos impactos causados por eventos climáticos extremos.
-                    </p>
+                    <p>A análise de dados climáticos em tempo real e o uso de sensores permitem ajustes precisos no manejo das culturas, como irrigação e aplicação de defensivos, com base nas condições climáticas. Isso resulta em uso mais eficiente dos recursos, maior produtividade e redução dos impactos de eventos climáticos extremos na agricultura.</p>
                 </li>
                 <li>
                     <input type="checkbox" checked>
                     <i></i>
                     <h3>Melhor acompanhamento dos alimentos:</h3>
-                    <p>Através de tecnologias como o sensoriamento remoto, sistemas de informação geográfica e análise de dados, é possível rastrear e monitorar todo o processo de produção, armazenamento e distribuição dos alimentos. Isso inclui o acompanhamento desde o cultivo das culturas até a chegada dos alimentos aos consumidores. Com um melhor acompanhamento, é possível garantir a qualidade dos alimentos, identificar possíveis problemas ou contaminações, reduzir desperdícios e melhorar a segurança alimentar.</p>
+                    <p>Tecnologias como sensoriamento remoto, sistemas de informação geográfica e análise de dados permitem o rastreamento e monitoramento completo do processo de produção, armazenamento e distribuição de alimentos. Isso garante a qualidade dos alimentos, identifica problemas, reduz desperdícios e melhora a segurança alimentar.</p>
                 </li>
             </ul>
         </div>
     
         <div style="margin-top: 5vh;">
-            <img src="IMG/fome.jpg" alt="Imagem" height="350vh" width="550vh">
+            <img src="https://storage.cloud.google.com/global-solution-fiap/comida.jpg" alt="Imagem" height="350vh" width="550vh">
         </div>
     </section>
     
     <section class="section5">
+        <h1>O Projeto: Visão Geral e Objetivos</h1>
+        <iframe width="700" height="415" src="https://www.youtube.com/embed/lws13uGS5hY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+
+    <section class="section6">
         <footer>
             <div class="footer-content">
               <ul class="footer-left">
@@ -202,12 +206,12 @@
               </ul>
               <div class="footer-center">
                 <a href="https://www.fiap.com.br/?gclid=CjwKCAjwg-GjBhBnEiwAMUvNW-TWErhlGOolMg2E5YlSjH0o0J63YwLzExonj6YAm-lHL7WWWHfzdRoClZsQAvD_BwE">
-                    <img src="IMG/fiap.png" height="25px" width="140px" alt="Imagem no centro">
+                    <img src="https://storage.cloud.google.com/global-solution-fiap/fiap.png" height="25px" width="140px" alt="Imagem no centro">
                 </a>
               </div>
               <div class="footer-right">
                 <a href="https://www.kraftheinzcompany.com/">
-                    <img src="IMG/kraft-heinz-logo.png"  height="15px" width="120px" alt="Imagem à direita">
+                    <img src="https://storage.cloud.google.com/global-solution-fiap/kraft-heinz-logo.png"  height="15px" width="120px" alt="Imagem à direita">
                 </a>
               </div>
             </div>

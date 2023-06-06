@@ -1,0 +1,480 @@
+@media (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    #logo {
+        text-align:center; 
+        margin-right:auto; 
+        margin-left:auto; 
+    }
+
+    #sections{
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background: #557153;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translate(100%);
+    }
+
+    #sections li {
+        margin-left: 0;
+        opacity: 0;
+    }
+
+    #section.active {
+        transform: translateX(0);
+    }
+
+    .nav-button {
+        display: block;
+        margin: -1px;
+
+    }
+
+    .overlay {
+        display: block;
+        width: 0;
+        height: 100%;
+        background-color: #557153;
+        z-index: 9;
+        position: fixed;
+        left: 0;
+        top: 0;
+        overflow-x: hidden;
+        overflow-y: all 0.5s;
+    }
+    
+    .overlay-content {
+        position: relative;
+        top: 15%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .overlay a {
+        padding: 8px;
+        text-decoration: none;
+        color: #000000;
+        display: block;
+        font-size: 30px;
+        transition: 0.5s;
+        font-family: 'Bebas Neue', sans-serif;
+    }
+    
+    .overlay a:hover, .overlay a:focus {
+        color: #70BE47; 
+    }
+    
+    .overlay .closebtn {
+        position: absolute;
+        top: 5px;
+        text-align: center;
+        font-size: 60px;
+    }
+
+    .content {
+      height: 110vh;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      
+    }
+  
+    .text {
+      margin-right: 0;
+      font-size: 45px;
+      text-align: center;
+      margin-top: -30px;
+      margin-bottom: 5vh;
+    }
+  
+    .image {
+      text-align: center;
+    }
+  
+    .image img {
+      height: 25vh;
+      width: 40vh;
+      margin: 1px auto;
+    }
+
+    img {
+        text-align: center;
+        height: 20vh;
+        width: 35vh;
+        margin: 15px auto;
+      }
+
+    h1 {
+        font-size: 30px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    #accordion {
+        max-width: 400px;
+        margin: auto;
+        padding: 0 15px;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #accordion h2 {
+        font-size: 17px;
+    }
+
+    #accordion h3 {
+        font-size: 13px;
+    }
+
+    #accordion p {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .image p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .icons {
+       display: none;
+    }
+
+    .section2 {
+        margin-top: -5vh;
+        display: flex;
+        height: 165vh;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        border-bottom: 2px solid black;
+    }
+
+    .section2 {
+        height: 90vh;
+        width: 100%;
+    }
+
+    .section3 {
+        margin-top: -13vh;
+        display: flex;
+        height: 165vh;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        border-bottom: 2px solid black;
+    }
+
+    .section3 img {
+        margin-top: -35vh;
+        margin-bottom: 100px;
+        align-items: center;
+        text-align: center;
+        margin-left: 100px;
+    }
+
+    .section3 #accordion {
+        width: 90%;
+    }
+
+    .section3 h2 {
+        margin-top: -10vh;
+    }
+
+    .section4 {
+        margin-top: -12vh;
+        display: flex;
+        height: 130vh;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        border-bottom: 2px solid black;
+    }
+
+    .section4 img {
+        margin-top: -37vh;
+    }
+
+    .section4 #accordion {
+        width: 90%;
+    }
+
+    .section4 h2 {
+        margin-top: -35vh;
+    }
+    
+    .section5 {
+        margin-top: -12vh;
+        height: 60vh;
+        width: 100%;
+    }
+
+    iframe {
+        width: 80%;
+        height: 45%;
+        margin-bottom: -35vh;
+    }
+
+    .footer-left {
+        font-size:6px; 
+    }
+
+    .footer-center img,
+    .footer-right img {
+        text-align: center;
+        height:15px; 
+        width:auto; 
+    }
+    
+  }
+  
+
+  @media (min-width: 602px) and (max-width: 1080px) {
+    
+    #logo {
+        text-align:center; 
+        margin-right:auto; 
+        margin-left:auto; 
+    }
+
+    #sections{
+        display:none; 
+    }
+  
+    .content {
+      height: 100vh;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      
+    }
+  
+    .text {
+      margin-right: 0;
+      font-size: 60px;
+      text-align: center;
+      margin-top: -20px;
+      margin-bottom: 2vh;
+    }
+  
+    .image {
+      text-align: center;
+    }
+  
+    .image img {
+      height: 30vh;
+      width: 60vh;
+      margin: 15px auto;
+    }
+
+    img {
+        text-align: center;
+        height: 35vh;
+        width: 70vh;
+        margin: 10px auto;
+      }
+
+    h1 {
+        font-size: 35px;
+        letter-spacing: 0px;
+    }
+
+    #accordion {
+        max-width: 1000px;
+        margin: auto;
+        padding: 0 15px;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #accordion h2 {
+        font-size: 17px;
+    }
+
+    #accordion h3 {
+        font-size: 13px;
+    }
+
+    #accordion p {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .image p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .icons {
+       display: none;
+    }
+
+    .section2 {
+        height: 90vh;
+        width: 100%;
+    }
+
+    .section3 {
+        margin-top: -10vh;
+        display: flex;
+        height: 140vh;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        border-bottom: none;
+        border-bottom: 2px solid black;
+    }
+
+    .section3 img {
+        margin-top: -35vh;
+        margin-bottom: 100px;
+    }
+
+    .section3 #accordion {
+        width: 90%;
+    }
+
+    .section3 h2 {
+        margin-top: -10vh;
+    }
+
+    .section4 {
+        margin-top: -13vh;
+        border-bottom: none;
+        display: flex;
+        height: 120vh;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        border-bottom: 2px solid black;
+    }
+
+    .section4 img {
+        margin-top: -50vh;
+    }
+
+    .section4 #accordion {
+        width: 90%;
+    }
+
+    .section4 h2 {
+        margin-top: -45vh;
+    }
+
+    .section5 {
+        margin-top: -12vh;
+        height: 70vh;
+        width: 100%;
+    }
+
+    iframe {
+        width: 100px;
+        height: 55%;
+        margin-bottom: -40vh;
+    }
+    
+
+    .section6 {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .footer-left {
+        display: none;
+    }
+
+    .footer-center img,
+    .footer-right img {
+        text-align: center;
+        height:30px; 
+        width:120px; 
+    }
+  }
+  
+  @media (min-width: 1900px) {
+    .content {
+        width: 100%;
+        height: 80vh;
+    }
+
+    #accordion {
+        max-width: 1500px;
+        margin: auto;
+        padding: 0 15px;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #accordion h2 {
+        font-size: 30px;
+    }
+
+    #accordion h3 {
+        font-size: 22px;
+    }
+
+    #accordion p {
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    .section2 {
+        margin-top: 5vh;
+        width: 100%;
+        height: 90vh;
+    }
+
+    .section3 {
+        margin-top: -10vh;
+        width: 100%;
+        height: 90vh;
+    }
+
+    .section4 {
+        margin-top: -10vh;
+        width: 100%;
+        height: 90vh;
+    }
+
+   .section6 {
+        margin-top: -10vh;
+        width: 100%;
+        height: 90vh;
+        padding-bottom: 0; 
+    }
+
+    .section5 {
+        margin-top: -10vh;
+        width: 100%;
+        height: 70vh;
+    }
+
+    .footer-center img,
+    .footer-right img {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        height:50px; 
+        width:200px; 
+    }
+
+  }
